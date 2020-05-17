@@ -190,6 +190,10 @@ header{
   .description-container{
     width: 50%;
   }
+
+  .description-container p{
+    font-size: 15px;
+  }
 }
 
 
@@ -267,11 +271,12 @@ header{
     list-style: none;
     font-size: 12px;
   }
+
 }
 
 @media screen and (max-width: 414px){
   .footer {
-    height: 50vh;
+    height: 30vh;
   }
 
   #navigation-container li img {
