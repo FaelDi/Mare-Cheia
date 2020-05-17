@@ -98,11 +98,12 @@ header{
 }
 
 .description-container p{
+  font-size: 20px;
   text-align: start;
   align-items: center;
   margin-top: 80px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #logo {
@@ -115,9 +116,6 @@ header{
   flex-wrap: wrap;
   flex-direction: row;
 }
-
-
-
 
 .panel-container{
   width: 30%;
