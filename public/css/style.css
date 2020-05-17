@@ -65,7 +65,7 @@ header{
 .category-description {
   border: 1px solid  rgb(48, 172, 255);
   background-color: rgb(5, 12, 28);
-  width: 30%;
+  width: 31%;
   height: 59.79vh;
   display:table
 }
@@ -95,14 +95,12 @@ header{
 .description-container {
   width: 70%;
   height: 100vh;
-  display: flexbox;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .description-container p{
   text-align: start;
   align-items: center;
+  margin-top: 80px;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -112,6 +110,46 @@ header{
   height: 70px;
 }
 
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.panel-container ul li{
+  list-style: none;
+}
+
+.panel-container{
+  width: 30%;
+  height: 100vh;
+}
+
+.panel-container h1 {
+  color: rgb(39, 69, 127);
+  text-align: center;
+  border-top: 3px solid rgb(39, 69, 127);
+  border-bottom: 3px solid rgb(39, 69, 127);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.panel-container p {
+  color: rgb(39, 69, 127);
+  text-align: center;
+  border-bottom: 3px solid rgb(39, 69, 127);
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 10px;
+}
+
+.panel-container img {
+  width: 80%;
+  height: 120px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 @media screen and (max-width: 1000px){
 
