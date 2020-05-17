@@ -159,6 +159,12 @@ header{
 
 }
 
+.footer {
+  display: block;
+  height: 300px;
+  background-color: rgb(39, 69, 127);
+}
+
 @media screen and (max-width: 1000px){
 
 
@@ -215,6 +221,7 @@ header{
   #description-container {
     display: flex;
     justify-content: center;
+    height: 50%;
   }
 
   .panel-container ul{
@@ -224,12 +231,14 @@ header{
   }
 
   .description-container p{
-    font-size: 12px;
+    font-size: 11px;
     text-align: start;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    word-wrap:break-word;
+    white-space: pre-line;
   }
   
   .panel-container img {
