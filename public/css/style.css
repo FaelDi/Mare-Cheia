@@ -194,6 +194,10 @@ header{
   .description-container p{
     font-size: 15px;
   }
+
+  .footer {
+    height: 30vh;
+  }
 }
 
 
