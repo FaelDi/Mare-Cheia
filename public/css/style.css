@@ -197,8 +197,10 @@ header{
   .navigation-bar li:not(:first-child) {
     display: none;
   }
+
   .category-description {
     width: 100%;
+    height: 50Vh;
   }
 
   .first-container{
@@ -207,11 +209,38 @@ header{
 
   .first-container img {
     width: 100%;
+    height: 50%;
     display: block;
   }
 
   #description-container {
     display: flex;
     justify-content: center;
+  }
+
+  .panel-container ul{
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .description-container p{
+    font-size: 12px;
+    text-align: start;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .panel-container img {
+    width: 80%;
+    height: 60px;
+    margin-top: 60px;
+  }
+
+  .panel-container ul li{
+    list-style: none;
+    font-size: 12px;
   }
 }
