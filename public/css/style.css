@@ -176,7 +176,6 @@ header{
 
   .category-description {
     width: 50%;
-
   }
   
   .first-container img {
@@ -198,14 +197,24 @@ header{
   body {
     width: 100%;
   }
-
-  .navigation-bar li:not(:first-child) {
+  
+  .navigation-bar li img {
     display: none;
+  }
+
+  .navigation-bar li a {
+    font-size: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
   }
 
   .category-description {
     width: 100%;
     height: 50vh;
+  }
+
+  .category-description h1{
+      font-size: 15px;
   }
 
   .first-container{
@@ -264,7 +273,7 @@ header{
   }
 
   .category-description{
-    height: 50vh;
+    height: 30vh;
   }
 
   .description-container p{
