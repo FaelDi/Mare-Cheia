@@ -116,13 +116,29 @@ header{
   flex-direction: row;
 }
 
-.panel-container ul li{
-  list-style: none;
-}
+
+
 
 .panel-container{
   width: 30%;
   height: 100vh;
+  display: block;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+}
+
+.panel-container ul{
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.panel-container ul li{
+  list-style: none;
 }
 
 .panel-container h1 {
@@ -130,16 +146,12 @@ header{
   text-align: center;
   border-top: 3px solid rgb(39, 69, 127);
   border-bottom: 3px solid rgb(39, 69, 127);
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .panel-container p {
   color: rgb(39, 69, 127);
   text-align: center;
   border-bottom: 3px solid rgb(39, 69, 127);
-  margin-left: 40px;
-  margin-right: 40px;
   padding-bottom: 10px;
 }
 
@@ -147,8 +159,7 @@ header{
   width: 80%;
   height: 120px;
   margin-top: 80px;
-  margin-left: 40px;
-  margin-right: 40px;
+
 }
 
 @media screen and (max-width: 1000px){
@@ -167,6 +178,15 @@ header{
   .first-container img {
     width: 50%;
     display: block;
+  }
+
+  .panel-container {
+    width: 50%;
+  }
+
+  .description-container{
+    width: 50%;
+    
   }
 }
 
